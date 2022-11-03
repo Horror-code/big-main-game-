@@ -1,0 +1,41 @@
+{
+    "name": "Big Main Game ",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "arcade-character-animations": "github:microsoft/arcade-character-animations#v0.0.2",
+        "animation": "*",
+        "Color Fading": "github:jwunderl/pxt-color#v0.2.2",
+        "arcade-background-scroll": "github:microsoft/arcade-background-scroll#6cfbf925b9a4d5ddf3e1078e6cf6ca6a1aebb301",
+        "corgio": "*",
+        "arcade-story": "github:microsoft/arcade-storytelling#v1.0.3",
+        "Sprite Grid": "github:microsoft/arcade-grid#v1.3.0",
+        "controller": "*",
+        "darts": "*",
+        "arcade-text": "github:microsoft/arcade-text#v1.3.0",
+        "sevenseg": "*",
+        "settings-blocks": "github:microsoft/pxt-settings-blocks#v1.0.0",
+        "arcade-sprite-data": "github:microsoft/arcade-sprite-data#v0.1.0",
+        "password-save": "github:jacobcarpenter/pxt-password-save#a5d4c0766d1fa5f46428caa6885cccce703dc495",
+        "midi-tone": "github:samelhusseini/pxt-midi-tone#73f70e1a2817cb306c602421bfb099cd84ef2c55"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.10.36",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
